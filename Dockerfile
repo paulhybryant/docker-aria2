@@ -1,5 +1,5 @@
-FROM alpine:3.8
-# FROM arm64v8/alpine:3.8
+# FROM alpine:3.8
+FROM arm64v8/alpine:3.8
 
 MAINTAINER paulhybryant <paulhybryant@gmail.com>
 
