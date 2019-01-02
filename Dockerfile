@@ -1,4 +1,4 @@
-FROM project31/aarch64-alpine-qemu:3.5.4
+FROM rycus86/arm64v8-alpine-qemu
 
 MAINTAINER paulhybryant <paulhybryant@gmail.com>
 
