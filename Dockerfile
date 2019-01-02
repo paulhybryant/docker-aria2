@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM project31/aarch64-alpine-qemu:3.5.4
 
 MAINTAINER paulhybryant <paulhybryant@gmail.com>
 
