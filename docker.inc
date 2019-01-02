@@ -1,5 +1,3 @@
-FROM alpine:3.8
-
 MAINTAINER paulhybryant <paulhybryant@gmail.com>
 
 ENV TZ 'Asia/Chongqing'
@@ -14,4 +12,3 @@ VOLUME ["/downloads"]
 EXPOSE 8800
 
 CMD ["/usr/bin/aria2c", "--conf-path", "/config/aria2.conf"]
-
