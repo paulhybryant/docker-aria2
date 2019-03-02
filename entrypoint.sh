@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cp /aria2/aria2.conf.bak /aria2/aria2.conf
 if [[ -f "/config/cert" ]]; then
   echo "rpc-secure=true" >> /aria2/aria2.conf
   echo "rpc-certificate=/config/cert" >> /aria2/aria2.conf
