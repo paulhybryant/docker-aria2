@@ -1,3 +1,6 @@
 [submodule "conf"]
 	path = conf
 	url = git@github.com:paulhybryant/aria2-daemon.git
+[submodule "hooks"]
+	path = hooks
+	url = https://github.com/paulhybryant/docker-build-hooks.git
