@@ -5,7 +5,7 @@ LABEL maintainer="paulhybryant@gmail.com"
 
 ENV TZ 'Asia/Chongqing'
 
-COPY qemu-aarch64-static /usr/bin/
+COPY hooks/qemu-aarch64-static /usr/bin/
 
 RUN \
     apk -U upgrade \
